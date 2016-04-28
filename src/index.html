@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="fr" ng-app="TestApp">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Test App</title>
+  <link href="assets/css/app.css" rel="stylesheet" type="text/css">
+  <base href="/">
+</head>
+<body>
+  <input type="text" placeholder="Enter your city" ng-model="city">
+
+  <p>
+    <b>Selected city</b> : {{ city }}
+  </p>
+
+  <script src="vendor/js/angular.js"></script>
+  <script src="app/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+{
+  "name": "test-app",
+  "version": "1.0.0",
+  "authors": [
+    "Fabien Anthonioz <fabien.anthonioz@neteden.fr>"
+  ],
+  "description": "Test application.",
+  "main": "gulpfile.js",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.3"
+  },
+  "devDependencies": {
+    "angular-mocks": "^1.5.3"
+  }
+}
