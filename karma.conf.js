@@ -10,7 +10,7 @@ module.exports = function (config) {
 
     'src/app/app.js',
 
-    'test/**/*.js'
+    'tests/**/*.js'
     ],
 
     reporters: ['progress'],
