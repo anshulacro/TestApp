@@ -1,5 +1,5 @@
 (function() {
   'use strict';
 
-  angular.module('TestApp', []);
+  angular.module('TestApp', ['uiGmapgoogle-maps']);
 })();

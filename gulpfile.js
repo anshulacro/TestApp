@@ -18,11 +18,17 @@ var isProduction = !!(argv.production);
 
 var paths = {
   appJS: [
-    'src/app/app.js'
+    'src/app/app.js',
+    'src/app/location_controller.js',
+    'src/app/factory.js',
+    'src/app/auto_complete_directive.js'
   ],
 
   angularJS: [
-    'vendor/angular/angular.js'
+    'vendor/angular/angular.js',
+    'vendor/lodash/dist/lodash.js',
+    'vendor/angular-simple-logger/dist/angular-simple-logger.js',
+    'vendor/angular-google-maps/dist/angular-google-maps.js'
   ],
 
   assets: [

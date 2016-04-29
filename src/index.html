@@ -7,8 +7,9 @@
   <link href="assets/css/app.css" rel="stylesheet" type="text/css">
   <base href="/">
 </head>
-<body>
-  <input type="text" placeholder="Enter your city" ng-model="city">
+<body ng-controller="CurrentLocation">
+  <!-- <input type="text" placeholder="Enter your city" ng-model="city"> -->
+  <input type="text"  placeholder="Enter your city"  ng-model="city" googleplace/>
 
   <p>
     <b>Selected city</b> : {{ city }}
@@ -16,5 +17,7 @@
 
   <script src="vendor/js/angular.js"></script>
   <script src="app/app.js"></script>
+  <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=places&sensor=false"></script>
+
 </body>
 </html>
